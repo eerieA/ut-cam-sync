@@ -180,5 +180,10 @@ namespace ninjaqwert.UTCamSync
             GUI.Label(new Rect(10, 10, 250, 25), $"🎥 Piloting: {pilotedCamera.name}", labelStyle);
             Handles.EndGUI();
         }
+
+        public static bool IsPiloting => isPiloting;
+
+        public static void StartPilotingFromWindow() => StartPiloting();
+        public static void StopPilotingFromWindow() => StopPiloting();
     }
 }
