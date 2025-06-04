@@ -19,7 +19,7 @@ CamViewSync is a lightweight Unity Editor extension that lets you **pilot any se
 
 ## Compatibility
 
-- Unity **2020.3+** to **2026 (Unity 6.1 tested)**
+- Unity **6.1**
 - Editor-only (no runtime dependencies)
 - No additional input system required
 
@@ -28,3 +28,8 @@ CamViewSync is a lightweight Unity Editor extension that lets you **pilot any se
 - Piloting works only in the Scene View (not Game View or Play mode).
 - Does not support piloting multiple cameras at once.
 - Transform syncing only happens during editor camera movement.
+
+## License
+
+This asset is distributed under the [Unity Asset Store EULA](https://unity3d.com/legal/as_terms).  
+License type: **Extension Asset**
